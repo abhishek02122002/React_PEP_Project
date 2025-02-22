@@ -1,0 +1,8 @@
+.main-div-second-page{
+     height: 100%;
+     width: 100%;
+     display: flex;
+     gap:30px;
+     background: linear-gradient(135deg, #001510, #00ff87);
+     
+}

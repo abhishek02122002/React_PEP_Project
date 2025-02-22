@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.full {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(135deg, #001510, #00ff87);
+  color:white;
+}
+
+.mobile-display {
+  background-color:  linear-gradient(135deg, #3a1c71, #d76d77, #ffaf7b);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color:black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  gap:10px;
+
+  img{
+     width:70px;
+  }
+  h1{
+     margin-left:50px;
+  }
+  
+  p{
+     margin-left:30px;
+  }
+}
+
+.creator {
+  position: relative;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.creator span {
+  position: relative;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.creator span::after {
+  content: attr(title);
+  position: absolute;
+  left: 50%;
+  top: 120%;
+  transform: translateX(-50%);
+  background-color: black;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  white-space: nowrap;
+  font-size: 14px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s, transform 0.3s;
+  z-index: 1000;
+}
+
+
+.creator span:hover::after {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(-50%) translateY(5px);
+}
+
+/* ✅ Mobile ke liye tooltip adjust */
+@media (max-width: 768px) {
+  .creator span::after {
+    left: 50%;
+    top: auto;
+    bottom: 120%; /* Niche ke jagah upar dikhega */
+    transform: translateX(-50%);
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+}
