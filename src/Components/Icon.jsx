@@ -8,7 +8,7 @@ export default function Icon({ openIcon, subjectName }) {
     Math: "public/math-icon.png",
     Science: "public/science-icon.png",
     History: "public/history-icon.png",
-    Default: "public/folder (1).png",
+    Default: "./folder (1).png",
   };
 
   return (
