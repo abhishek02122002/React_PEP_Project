@@ -1,11 +1,120 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 About KodeLab
+KodeLab is an AI-powered educational tool designed to help students stay focused on their specific subjects without getting lost in the distractions of the internet. It ensures that users stick to their learning goals while providing efficient AI-assisted responses to their queries.
 
-Currently, two official plugins are available:
+## 🔥 Features
+- **AI-Powered Chatbot**: Answers all subject-specific questions with up to 100% accuracy.
+- **Distraction-Free Learning**: Restricts searching beyond selected subjects.
+- **Dynamic Folder System**: Contains six window-like structures that:
+  - Can be **resized, full-screened, minimized, or dragged**.
+  - Each has a **specific syllabus** attached.
+  - Restricts access to unrelated sections.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- **Frontend**: React.js
+- **AI**: Chatbot Integration
+- **Styling**: CSS
 
+## 📸 Screenshots
+(Add relevant screenshots here by uploading them to your GitHub repo and linking them)
 
-AIzaSyDNHPojV1ni1cB4f_Y4i5kStRncbYQgy6U
+## 🚀 Live Demo
+Check out the live version of KodeLab here: [Live Demo](https://1ca349d0.react-pep-project.pages.dev/)
+
+## 🔧 Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/abhishek02122002/React_PEP_Project.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd React_PEP_Project
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npm start
+   ```
+
+## 🤝 Contributing
+Contributions are welcome! Feel free to fork the repository and submit pull requests.
+
+## 👤 Author
+**Abhishek**  
+GitHub: [@abhishek02122002](https://github.com/abhishek02122002)
+
+## 📜 License
+This project is licensed under the MIT License.
+
+---
+Feel free to update this README as the project evolves! 🚀
+
+# KodeLab
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-%E2%86%92-blue?style=for-the-badge)](https://1ca349d0.react-pep-project.pages.dev/)
+
+## 🚀 About KodeLab
+KodeLab is an AI-powered educational tool designed to help students stay focused on their specific subjects without getting lost in the distractions of the internet. It ensures that users stick to their learning goals while providing efficient AI-assisted responses to their queries.
+
+## 🔥 Features
+- **AI-Powered Chatbot**: Answers all subject-specific questions with up to 100% accuracy.
+- **Distraction-Free Learning**: Restricts searching beyond selected subjects.
+- **Dynamic Folder System**: Contains six window-like structures that:
+  - Can be **resized, full-screened, minimized, or dragged**.
+  - Each has a **specific syllabus** attached.
+  - Restricts access to unrelated sections.
+
+## 🛠️ Tech Stack
+- **Frontend**: React.js
+- **AI**: Chatbot Integration
+- **Styling**: CSS
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](https://github.com/abhishek02122002/React_PEP_Project/blob/main/screenshots/homepage.png?raw=true)
+
+### 📂 Folder Window
+![Folder Window](src/assets/Screenshot (200).png)
+![Folder Window](src\assets/Screenshot (201).png)
+
+### 🤖 AI Chatbot
+![AI Chatbot](src/assets/Screenshot (204).png)
+
+## 🚀 Live Demo
+Check out the live version of KodeLab here: [Live Demo](https://1ca349d0.react-pep-project.pages.dev/)
+
+## 🔧 Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/abhishek02122002/React_PEP_Project.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd React_PEP_Project
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npm start
+   ```
+
+## 🤝 Contributing
+Contributions are welcome! Feel free to fork the repository and submit pull requests.
+
+## 👤 Author
+**Abhishek**  
+GitHub: [@abhishek02122002](https://github.com/abhishek02122002)
+
+## 📜 License
+This project is licensed under the MIT License.
+
+---
+Feel free to update this README as the project evolves! 🚀
+
