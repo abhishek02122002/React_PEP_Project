@@ -22,15 +22,14 @@ KodeLab is an AI-powered educational tool designed to help students stay focused
 
 ## 📸 Screenshots
 
-### 🏠 Home Page
-![Home Page](https://github.com/abhishek02122002/React_PEP_Project/blob/main/screenshots/homepage.png?raw=true)
+
 
 ### 📂 Folder Window
-![Folder Window](src/assets/Screenshot (200).png)
-![Folder Window](src\assets/Screenshot (201).png)
+![Folder Window](src/assets/screenshots/Screenshot%20(200).png)
+![Folder Window](src/assets/screenshots/Screenshot%20(202).png)
 
 ### 🤖 AI Chatbot
-![AI Chatbot](src/assets/Screenshot (204).png)
+![AI Chatbot](src/assets/screenshots/Screenshot%20(204).png)
 
 ## 🚀 Live Demo
 Check out the live version of KodeLab here: [Live Demo](https://1ca349d0.react-pep-project.pages.dev/)
