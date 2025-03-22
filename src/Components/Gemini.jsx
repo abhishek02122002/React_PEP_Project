@@ -4,7 +4,7 @@ import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { dracula } from "react-syntax-highlighter/dist/esm/styles/prism";
 import Loading from "./Loading";
 
-const API_KEY = "AIzaSyDNHPojV1ni1cB4f_Y4i5kStRncbYQgy6U";
+const API_KEY = "AIzaSyCzAnGDJ9xBjEmlk3bqr2GS_6X7557LpCc";
 const genAI = new GoogleGenerativeAI(API_KEY);
 
 const allowedTopics = {
